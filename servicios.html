@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.8"> -->
+	<title>Novofactoring</title>
+	<link rel="preload" href="css/normalize.css" as="style" >
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preload" href="css/style.css" as="style" >
+	<link rel="stylesheet"  href="style.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.png">
+	<link href="font-awsome/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Oswald:wght@400;700&family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Oswald:wght@400;700&family=Roboto+Condensed:wght@300;700&family=Source+Sans+Pro:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+
+
+	<header class="inicio">
+		<div class="menu">
+			<div class="iconno">
+				<img src="favicon.png" >
+				<!-- <h1>novo</h1> -->
+				<i id="activa" class="fas fa-bars fa-lg " onclick="menuResponsive()"></i>	
+				<!-- <i class="fas fa-ellipsis-v"></i> -->
+				<!-- <i id="activa" class="fas fa-ellipsis-v fa-lg " onclick="menuResponsive()"></i> -->
+				<i id="desactiva" class="fas fa-ellipsis-v fa-lg " onclick="ocultarmenuResponsive()"></i>
+			</div>
+			
+			<div id="desplega" class="menu-desplega">
+				<ul>
+					<li><a class="" href="index.html">Inicio</a></li>
+					<li><a href="somos.html">Quienes Somos</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="contactanos.html">Contactanos</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<div class=" nav-background">
+			
+			<a class="seleccionado" href="#">Inicio</a>
+			<a href="somos.html">Quienes Somos</a>
+			<a href="servicios.html">Servicios</a>
+			<a href="contactanos.html">Contactanos</a>
+		</div>
+	</header>
+	
+	
+  </div>
+		
+
+  <div class="empresa-grid">
+    <div class=" perfil-empresa der">
+        <h2>¿Qué es el Factoring?</h2>
+            <p class="">	El Factoring ha ido ganando acogida a nivel mundial dado a que provee liquidez económica de una madera inmediata, a empresas privadas como a personas naturales, haciéndolo de una manera ágil y segura
+
+            </p>
+    </div>
+    <div class="imgempre der">
+        <img class="imagen" style= "height: 400px;" src="img/fotos/edificio-Arcos-Plaza.jpg" alt="imagen equipo"> 
+        
+        
+        
+    </div>
+    
+
+    
+</div>
+
+
+<div class=" servicio mis">
+	<h2>Servicios</h2>
+	<div class="ico">
+		<i id="iconoMas" class="far fa-plus-square puo" onclick="mostrarAcepta()"></i> <i id="iconomenos" class="far fa-minus-square" onclick="ocultarAcepta()"></i>	<p class="servicio-parrafo pala" id="servicio-parrafo" >Factoring con aceptación</p>
+
+	</div>
+	
+	<div id="acept" class="parra-acept lista">
+			<Ul >
+				<li>1.- Emisor vende productos/servicios al deudor</li>
+				<li>2.- Emisor cesiona la factura a NOVOFACTORING</li>
+				<li>3.- Deudor acepta la cesion</li>
+				<li>4.- NOVOFACTORING  anticipa fondos al emisor (80%)</li>
+				<li>5.- Deudor paga a NOVOFACTORING en plazo acordado</li>
+
+			</Ul>
+		</div>
+		<div class="ico">
+			<i id="iconoMas-1" class="far fa-plus-square puo" onclick="mostrarNoAcepta()"></i> <i id="iconomenos-1" class="far fa-minus-square" onclick="ocultarNoAcepta()"></i>	<p class="servicio-parrafo pala" id="servicio-parrafo" >Factoring con sin aceptación</p>
+	
+		</div>
+		<div id="noacept" class="parra-noacept lista">
+			<Ul>
+				<li>1.- Emisor vende productos/servicios al deudor</li>
+				<li>2.- Emisor cesiona la factura a NOVOFACTORING</li>
+				<li>3.- NOVOFACTORING  anticipa fondos al emisor (80%)</li>
+				<li>4.- Deudor paga a la cuenta bancaria</li>
+
+			</Ul>
+		</div>
+
+		<div class="ico">
+			<i id="iconoMas-2" class="far fa-plus-square puo" onclick="mostrarSupply()"></i> <i id="iconomenos-2" class="far fa-minus-square" onclick="ocultarSupply()"></i>	<p class="servicio-parrafo pala" id="servicio-parrafo" >Factoring con Supply Chain</p>
+	
+		</div>
+		<div id="supply" class="parra-supply  lista">
+			<Ul>
+				<li>1.- Proveedor vende productos/servicios a la gran empresa</li>
+				<li>2.- Gran empresa aprueba a proveedor</li>
+				<li>3.- Proveedor cesiona la factura a NOVOFACTORING </li>
+				<li>4.- NOVOFACTORING anticipa fondos al proveedor (100%)</li>
+				<li>5.- Gran empresa paga a NOVOFACTORING en plazo acordado</li>
+
+			</Ul>
+		</div>
+
+</div>
+	
+
+
+
+       
+
+<div class="iconos ">
+	<div class="seguridad cont">
+		<h2>Liquidez completa para su negocio</h2>
+		<p>Confie el crecimiento de su empresa con nosotros.</p>
+		<div class="text-center"><i class="fas fa-chart-line"></i></div>
+		<!-- <img src="img/iconos/crecimiento.svg" alt="insertar SVG con la etiqueta image"> -->
+
+	</div>
+	<div class="tiempo cont">
+		<h2>Compromiso Total</h2>
+		<p>Tenemos un compromiso completo con su empresa en la esperando su crecimiento.</p>
+		<div class="text-center"><i class="far fa-clock"></i></div>
+		<!-- <img src="img/clock-regular.svg" alt="insertar SVG con la etiqueta image"> -->
+	</div>
+	<div class="liquidez  cont">
+		<h2>Asesoria Oportuna</h2>
+		<p>Por nuestra basta experiencia podemos asesoralo respecto a gestión de negocios.</p>
+		<div class="text-center"><i class="fas fa-user-friends"></i></div>
+		<!-- <img src="img/hand-holding-usd-solid.svg" alt="insertar SVG con la etiqueta image"> -->
+	</div>
+</div>
+
+
+        
+		
+		<main class=" contenedor  ">
+
+			
+			</div> <!-- Este es el cierre de la clase de servicios-->
+			
+		
+
+		</main>
+		<footer class="foot"> 
+			<div class="grid-footer">
+				<div class="part1">
+					<p></p>
+				</div>
+
+				<div class="part2">
+					
+				</div>
+
+				<div class="part3">
+					
+				</div>
+
+			</div>
+
+
+
+
+			<p>Todos los derechos reservados Diego Velarde Freelancer </p> 
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="servicios.js"></script>
+</body>
+</html>

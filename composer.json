@@ -1,0 +1,18 @@
+{
+    "name": "diego/novo",
+    "description": "phpmail",
+    "autoload": {
+        "psr-4": {
+            "Diego\\Novo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Velarde",
+            "email": "dvelarde140@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
